@@ -1,0 +1,39 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/************************************************************ Navigation Bar*************************************/
+
+.navbar-custom {
+    background: #43CFF8;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#555;
+}
+.nav-item {
+    
+    width: 6em;
+    text-align-last: center;
+    transition: 0.5s;
+}
+.nav-item:hover {
+    box-shadow: 0 0 8px #555;
+    color: black;
+    border: 1px solid #555;
+    
+
+
+}
+
+
+/* Primary Color: #43CFF8 */
+/* Accent Color: #69C0DF  */
+/* Background Color: #E0E9ED  */
+/* Paragraph color : #555 */
